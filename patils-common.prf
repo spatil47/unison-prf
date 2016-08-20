@@ -1,0 +1,17 @@
+times = true
+owner = true
+
+ignore = Path .*
+ignore = Name .*
+ignore = Name *~
+ignore = Name .*~
+ignore = Path .config/pulse
+ignore = Path .config/pavucontrol.ini
+ignore = Path .config/gtk-2.0/gtkfilechooser.ini
+ignore = Path result
+ignore = Path unison.log
+
+ignorenot = Path .config
+ignorenot = Path .purple
+ignorenot = Name .emacs
+ignorenot = Path .emacs.d
